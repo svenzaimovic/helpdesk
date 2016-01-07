@@ -21,6 +21,8 @@ Route::get('/login', 'PagesController@login');
 
 Route::get('/contact', 'PagesController@contact');
 
+Route::get('/incident', 'PagesController@incident');
+
 //Auth routes
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
