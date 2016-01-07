@@ -297,19 +297,19 @@
                         <a class="active-menu" href="problem"><i class="fa fa-fw fa-exclamation-triangle"></i> Problem Management</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="change"><i class="fa fa-fw fa-file"></i> Resolving Changes</a>
+                        <a class="active-menu" href="change"><i class="fa fa-fw fa-pencil-square-o"></i> Change</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="event_resolve"><i class="fa fa-fw fa-file"></i> Event Resolving</a>
+                        <a class="active-menu" href="change"><i class="fa fa-fw fa-pencil-square"></i> Resolving Changes</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="events"><i class="fa fa-fw fa-file"></i> Events</a>
+                        <a class="active-menu" href="events"><i class="fa fa-fw fa-star-o"></i> Events</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="change"><i class="fa fa-fw fa-file"></i> Change</a>
+                        <a class="active-menu" href="event_resolve"><i class="fa fa-fw fa-star"></i> Event Resolving</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="contact"><i class="fa fa-fw fa-file"></i> Contact Us</a>
+                        <a class="active-menu" href="contact"><i class="fa fa-fw fa-question-circle"></i> Contact Us</a>
                     </li>
                 </ul>
 
