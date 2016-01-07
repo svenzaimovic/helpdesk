@@ -291,6 +291,9 @@
                         <a class="active-menu" href="login"><i class="fa fa-fw fa-file"></i> Login Page</a>
                     </li>
                     <li>
+                        <a class="active-menu" href="incident"><i class="fa fa-fw fa-file"></i> Incident Management</a>
+                    </li>
+                    <li>
                         <a class="active-menu" href="contact"><i class="fa fa-fw fa-file"></i> Contact Us</a>
                     </li>
                 </ul>

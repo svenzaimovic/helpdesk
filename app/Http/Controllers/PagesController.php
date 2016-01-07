@@ -25,4 +25,9 @@ class PagesController extends Controller
         return view('contact');
     }
 
+    public function incident()
+    {
+        return view('incident');
+    }
+
 }
