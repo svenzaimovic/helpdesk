@@ -1,36 +1,43 @@
 @extends('layouts.master')
 
 @section('content')
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 incident-form">
-		<h1 class="title" style="margin-bottom:25px;">Basic Incident Information</h1>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 incident-form">
+	<h1 class="title" style="margin-bottom:25px;">Basic Incident Information</h1>
+
+	<form id="form_1085042" class="appnitro"  method="post" action="">
+		<div>
+			<h2>Incidents</h2>
+			<p>If you have encountered a problem with our services please fill out the form below. We will assure you that the form will be taken into consideration and resolved in our earliest convenience.</p>
+		</div>		
+
+		<div class="inputs col-lg-12 col-md-12 col-sm-12 col-xs-12">				
+
+		<div>
+			<input style="margin-bottom:25px" class="form-control" id="element_9" name="element_9" type="text" maxlength="16" value="" placeholder="ID Number"/> 
+		</div> 
 		
-			<label>Name</label>
-			<input class="form-control" placeholder="Full Name">
+		<div>
+			<input style="margin-bottom:25px" class="form-control" id="element_2" name="element_2" type="text" maxlength="255" value="" placeholder="Title"/> 
+		</div> 
+		<div class="left">
+			<label class="description" for="element_1">Category</label>
+			<select class="element select medium form-control" id="element_6_6" name="element_6_6" placeholder="Category"> 
+				<option value="" selected="selected"></option>
+				<option value="app" >App</option>
+				<option value="account" >Account</option>
+				<option value="data" >Data</option>
+			</select>
+		</div>
 
-			<label>User</label>
-			<input class="form-control" placeholder="Your Username">
+		<label class="description" for="element_3">Description </label>
+		<div>
+			<textarea id="element_3" name="element_3" class="element textarea medium form-control" placeholder="Explain your problem to us in detail."></textarea> 
+		</div> 
+		<input type="hidden" name="form_id" value="1085042" />
 
-			<label>Group</label>
-			<input class="form-control" placeholder="Your Group">
+		</div>
+	</form>	
 
-			<label>Table</label>
-			<input class="form-control" placeholder="Table Name">
-
-			<label>Incident Category</label>
-			<input class="form-control" placeholder="Enter the incident category">
-
-			<label>Configuration Item</label>
-			<input class="form-control" placeholder="Enter the configuration item">
-
-			<label>Description</label>
-			<textarea class="form-control" placeholder="Enter the configuration item"></textarea>
-
-			<label>Impact</label>
-			<input class="form-control" placeholder="Impact (1-5)">
-
-			<label>Urgency</label>
-			<input class="form-control" placeholder="Urgency (1-5)">
-
-		<a href="#" class="btn btn-primary" style="float:right;margin-top:25px;">Submit</a>
-	</div>
+	<a href="#" id="saveForm" type="submit" name="submit" value="Submit"class="btn btn-primary" style="float:right;margin-top:25px;">Submit</a>
+</div>
 @stop
