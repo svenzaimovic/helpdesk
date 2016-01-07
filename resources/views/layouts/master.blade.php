@@ -294,6 +294,9 @@
                         <a class="active-menu" href="incident"><i class="fa fa-fw fa-file"></i> Incident Management</a>
                     </li>
                     <li>
+                        <a class="active-menu" href="problem"><i class="fa fa-fw fa-file"></i> Problem Management</a>
+                    </li>
+                    <li>
                         <a class="active-menu" href="contact"><i class="fa fa-fw fa-file"></i> Contact Us</a>
                     </li>
                 </ul>

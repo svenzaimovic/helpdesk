@@ -30,4 +30,8 @@ class PagesController extends Controller
         return view('incident');
     }
 
+    public function problem()
+    {
+        return view('problem');
+    }
 }

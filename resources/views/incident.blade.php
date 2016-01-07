@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 incident-form">
-		<h1 class="Basic Incident Information"></h1>
+		<h1 class="title" style="margin-bottom:25px;">Basic Incident Information</h1>
 		
 			<label>Name</label>
 			<input class="form-control" placeholder="Full Name">
@@ -31,6 +31,6 @@
 			<label>Urgency</label>
 			<input class="form-control" placeholder="Urgency (1-5)">
 
-		<a href="#" class="btn btn-primary" style="float:right;">Submit</a>
+		<a href="#" class="btn btn-primary" style="float:right;margin-top:25px;">Submit</a>
 	</div>
 @stop

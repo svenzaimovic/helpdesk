@@ -23,6 +23,8 @@ Route::get('/contact', 'PagesController@contact');
 
 Route::get('/incident', 'PagesController@incident');
 
+Route::get('/problem', 'PagesController@problem');
+
 //Auth routes
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
