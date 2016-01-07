@@ -39,6 +39,6 @@
 			<label>Affected Services</label>
 			<textarea class="form-control" placeholder="Name"></textarea>
 
-		<a href="#" class="btn btn-primary" style="float:right;margin-top:25px;">Submit</a>
+		<a href="#" id="saveForm" type="submit" name="submit" value="Submit"class="btn btn-primary" style="float:right;margin-top:25px;">Submit</a>
 	</div>
 @stop

@@ -34,4 +34,19 @@ class PagesController extends Controller
     {
         return view('problem');
     }
+
+    public function change()
+    {
+        return view('change');
+    }
+
+    public function event_resolve()
+    {
+        return view('event_resolve');
+    }
+
+    public function events()
+    {
+        return view('events');
+    }
 }

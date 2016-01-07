@@ -291,10 +291,22 @@
                         <a class="active-menu" href="login"><i class="fa fa-fw fa-file"></i> Login Page</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="incident"><i class="fa fa-fw fa-file"></i> Incident Management</a>
+                        <a class="active-menu" href="incident"><i class="fa fa-fw fa-bell"></i> Incident Management</a>
                     </li>
                     <li>
-                        <a class="active-menu" href="problem"><i class="fa fa-fw fa-file"></i> Problem Management</a>
+                        <a class="active-menu" href="problem"><i class="fa fa-fw fa-exclamation-triangle"></i> Problem Management</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="change"><i class="fa fa-fw fa-file"></i> Resolving Changes</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="event_resolve"><i class="fa fa-fw fa-file"></i> Event Resolving</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="events"><i class="fa fa-fw fa-file"></i> Events</a>
+                    </li>
+                    <li>
+                        <a class="active-menu" href="change"><i class="fa fa-fw fa-file"></i> Change</a>
                     </li>
                     <li>
                         <a class="active-menu" href="contact"><i class="fa fa-fw fa-file"></i> Contact Us</a>

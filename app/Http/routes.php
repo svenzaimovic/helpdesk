@@ -25,6 +25,14 @@ Route::get('/incident', 'PagesController@incident');
 
 Route::get('/problem', 'PagesController@problem');
 
+Route::get('/change', 'PagesController@change');
+
+Route::get('/event_resolve', 'PagesController@event_resolve');
+
+Route::get('/events', 'PagesController@events');
+
+Route::get('/change', 'PagesController@change');
+
 //Auth routes
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
