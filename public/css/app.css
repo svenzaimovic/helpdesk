@@ -5754,3 +5754,10 @@ button.close {
     display: none !important; } }
 
 /*# sourceMappingURL=app.css.map */
+
+.error {
+  font-size: small;
+  color: darkred;
+  position: relative;
+  top: -30px;
+}

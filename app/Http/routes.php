@@ -20,18 +20,25 @@ Route::get('/hello', function () {
 Route::get('/login', 'PagesController@login');
 
 Route::get('/contact', 'PagesController@contact');
+Route::post('/contactForm', 'PagesController@contactForm');
 
 Route::get('/incident', 'PagesController@incident');
+Route::post('/incidentForm', 'PagesController@incidentForm');
 
 Route::get('/problem', 'PagesController@problem');
+Route::post('/problemForm', 'PagesController@problemForm');
 
 Route::get('/change', 'PagesController@change');
+Route::post('/changeForm', 'PagesController@changeForm');
 
 Route::get('/event_resolve', 'PagesController@event_resolve');
+Route::post('/event_resolveForm', 'PagesController@event_resolveForm');
 
 Route::get('/events', 'PagesController@events');
+Route::post('/eventForm', 'PagesController@eventForm');
 
 Route::get('/change', 'PagesController@change');
+Route::post('/chageForm', 'PagesController@changeForm');
 
 //Auth routes
 Route::get('auth/login', 'Auth\AuthController@getLogin');
