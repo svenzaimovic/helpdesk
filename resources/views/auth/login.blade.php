@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="col-md-6">
-    <form method="POST" action="/auth/login">
+    <form method="POST" action="bank-helpdesk/public/auth/login">
         {!! csrf_field() !!}
         <div class="panel registration-panel">
             <h1><small>Sign In</small>
@@ -33,7 +33,7 @@
         </div> 
     </form>
     <div class="col-md-6">
-        <form method="POST" action="/auth/register">
+        <form method="POST" action="bank-helpdesk/public/auth/register">
             {!! csrf_field() !!}
             <div class="panel registration-panel">
                 <h1><small>Register</small>
