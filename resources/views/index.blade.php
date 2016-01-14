@@ -1,43 +1,15 @@
 @extends('layouts.master')
 
 @section('content')
-<h1> Index page content </h1>
-
-<script type="text/javascript" src="//d2qrdklrsxowl2.cloudfront.net/js/hapyak.js"></script>
-<div style="width:720px;overflow:hidden;height:405px;position:relative;">
-   <div id="hapyak-player-27287-2089"></div>
+<div class="row">
+  <div style="text-align:center" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h1 style="text-align:center">Welcome to our Bank Helpdesk Solution!</h1>
+    <a style="margin-top:50px;" href="login" class="btn btn-default">Log-in to access this site</a>
+  </div>
 </div>
-<script>
-window.onYouTubeIframeAPIReady = function() {
-   var ytPlayer = new YT.Player("hapyak-player-27287-2089", {
-       height: "405",
-       width: "720",
-       videoId: "mKA4-MA-jPY",
-       playerVars: {
-           controls: /(iPhone|iPad)/i.test(navigator.userAgent) ? 0 : 2,
-           html: 1,
-           playsinline: 1,
-           autohide: 1,
-           modestbranding: 1,
-           rel: 0,
-           fs: 0,
-           showinfo: 0,
-           wmode: "opaque"
-       }
-   });
-   hapyak.viewer({
-       apiKey: "956a0837880d417788b9",
-       projectId: 27287,
-       resetVariables: true,
-       player: ytPlayer,
-       playerType: "youtube",
-       width: 720,
-       height: 405,
-       autoplay: false
-   });
-};
-</script>
-<script src="//www.youtube.com/iframe_api"></script>
+
+
+
 
 
 @stop

@@ -21,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">My Bank</a>
+                <a class="navbar-brand" href="bank-helpdesk/public/">My Bank</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
